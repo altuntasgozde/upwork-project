@@ -18,12 +18,18 @@
     font-family:"Lato-Regular";
     src: url("./Fonts/Lato-Regular.ttf");
 }
-.card h1 {
-    font-family: "Antonia H1 SemiBold";
-    color:#1D315A;
+
+.form-part {
+    border-radius: 2%;
 }
 
-.card p, .card label, .card input::placeholder {
+.form-part h1 {
+    font-family: "Antonia H1 SemiBold";
+    color:#1D315A;
+    font-size: 36px;
+}
+
+.form-part p, .form-part label, .form-part input::placeholder {
    font-family: "Montserrat-Regular";
    font-size: 17px;
 }
@@ -31,6 +37,24 @@
 .btn-default {
     background-color: #1B1E45 !important;
     font-family: "Lato-Black";
+}
+
+.right h1{
+    font-size: 90px;
+    font-family: "Antonia H1 SemiBold";
+    color:#1D315A;
+}
+
+.right p {
+    font-family: "Lato-Regular";
+    font-size:30px;
+    color:#1D315A;
+
+}
+
+.right img {
+    border-radius: 70%;
+    
 }
 
 .second h1 {
@@ -41,11 +65,44 @@
 .second p {
     font-family: "Lato-Regular";
     color:#1D315A;
-    font-size: 24px;
+    font-size: 22px;
+}
+
+.second h6 {
+    font-family: "Antonia H1 SemiBold";
+    color:#1D315A;
+    font-size:40px;
+}
+
+.second .btn {
+    font-size: 35px;
+
+}
+
+.picture-part h3 {
+    font-family: "Antonia H1 SemiBold";
+    color:#1D315A;
+    font-size:44px;
+}
+
+.picture-part p {
+    font-family: "Lato-Regular";
+    color:#1D315A;
+    font-size:20px
 }
 
 footer {
-    background-color: #1B1E45;
+    background-color: #1D315A;
     color:white;
+}
+
+footer h2 {
+    font-family: "Lato-Black"; 
+}
+
+footer .btn {
+    font-size: 40px;
+    color:#1D315A;
+    font-family: "Lato-Black"; 
 }
 
