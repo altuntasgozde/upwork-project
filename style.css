@@ -19,6 +19,12 @@
     src: url("./Fonts/Lato-Regular.ttf");
 }
 
+
+@font-face {
+    font-family:"MinionPro-Regular";
+    src: url("./Fonts/MinionPro-Regular.otf");
+}
+
 .form-part {
     border-radius: 2%;
 }
@@ -34,9 +40,10 @@
    font-size: 17px;
 }
 
-.btn-default {
+.form-part .btn, .second .btn {
     background-color: #1B1E45 !important;
     font-family: "Lato-Black";
+    font-size: 26px;
 }
 
 .right h1{
@@ -96,13 +103,24 @@ footer {
     color:white;
 }
 
-footer h2 {
+footer h1 {
     font-family: "Lato-Black"; 
 }
 
 footer .btn {
-    font-size: 40px;
+    font-size: 36px;
     color:#1D315A;
     font-family: "Lato-Black"; 
+}
+
+footer a {
+    text-decoration: none;
+    color:white;
+   font-family:"MinionPro-Regular";
+   font-size: 21px;
+}
+
+footer .annex {
+    color:#50577D;
 }
 
