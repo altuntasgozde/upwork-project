@@ -1,0 +1,32 @@
+@font-face {
+    font-family:"Antonia H1 SemiBold";
+    src: url("./Fonts/AntoniaH1-SemiBold.ttf");
+}
+
+@font-face {
+    font-family:"Montserrat-Regular";
+    src: url("./Fonts/Montserrat-Regular.otf");
+}
+
+@font-face {
+    font-family:"Lato-Black";
+    src: url("./Fonts/Lato-Black.ttf");
+}
+.card h1 {
+    font-family: "Antonia H1 SemiBold";
+}
+
+.card p, .card label, .card input::placeholder {
+   font-family: "Montserrat-Regular";
+   font-size: 13px;
+}
+
+.btn {
+    background-color: #1B1E45 !important;
+    font-family: "Lato-Black";
+}
+
+.second h1 {
+    font-family: "Antonia H1 SemiBold";
+}
+
