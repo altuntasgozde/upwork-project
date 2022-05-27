@@ -28,7 +28,7 @@
    font-size: 17px;
 }
 
-.btn {
+.btn-default {
     background-color: #1B1E45 !important;
     font-family: "Lato-Black";
 }
@@ -42,5 +42,10 @@
     font-family: "Lato-Regular";
     color:#1D315A;
     font-size: 24px;
+}
+
+footer {
+    background-color: #1B1E45;
+    color:white;
 }
 
