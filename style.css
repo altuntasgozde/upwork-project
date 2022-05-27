@@ -12,13 +12,20 @@
     font-family:"Lato-Black";
     src: url("./Fonts/Lato-Black.ttf");
 }
+
+
+@font-face {
+    font-family:"Lato-Regular";
+    src: url("./Fonts/Lato-Regular.ttf");
+}
 .card h1 {
     font-family: "Antonia H1 SemiBold";
+    color:#1D315A;
 }
 
 .card p, .card label, .card input::placeholder {
    font-family: "Montserrat-Regular";
-   font-size: 13px;
+   font-size: 17px;
 }
 
 .btn {
@@ -28,5 +35,12 @@
 
 .second h1 {
     font-family: "Antonia H1 SemiBold";
+    color:#1D315A;
+}
+
+.second p {
+    font-family: "Lato-Regular";
+    color:#1D315A;
+    font-size: 24px;
 }
 
