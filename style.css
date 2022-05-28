@@ -1,45 +1,45 @@
 @font-face {
-    font-family:"Antonia H1 SemiBold";
+    font-family: "Antonia H1 SemiBold";
     src: url("./Fonts/AntoniaH1-SemiBold.ttf");
 }
 
 @font-face {
-    font-family:"Montserrat-Regular";
+    font-family: "Montserrat-Regular";
     src: url("./Fonts/Montserrat-Regular.otf");
 }
 
 @font-face {
-    font-family:"Lato-Black";
+    font-family: "Lato-Black";
     src: url("./Fonts/Lato-Black.ttf");
 }
 
 
 @font-face {
-    font-family:"Lato-Regular";
+    font-family: "Lato-Regular";
     src: url("./Fonts/Lato-Regular.ttf");
 }
 
 
 @font-face {
-    font-family:"MinionPro-Regular";
+    font-family: "MinionPro-Regular";
     src: url("./Fonts/MinionPro-Regular.otf");
 }
 
 @font-face {
-    font-family:"Lato-MediumItalic";
+    font-family: "Lato-MediumItalic";
     src: url("./Fonts/Lato-MediumItalic.ttf");
 }
 
-.section1{
+.section1 {
     background-color: #d4e7ef;
     padding-bottom: 110px;
 }
-   
 
-.section2{
+
+.section2 {
     background-color: #2f2e43;
     padding-bottom: 110px;
-} 
+}
 
 /* Form part */
 
@@ -47,111 +47,129 @@
     border-radius: 2%;
     position: relative;
     z-index: 1;
-    
 }
 
 .form-part h1 {
     font-family: "Antonia H1 SemiBold";
-    color:#2f2e43;
+    color: #2f2e43;
     font-size: 36px;
 }
 
-.form-part p, .form-part label, .form-part input::placeholder {
-   font-family: "Montserrat-Regular";
-   font-size: 17px;
+.form-part .name input{
+    width: 260px;
+}
+
+.form-part p,
+.form-part label,
+.form-part input::placeholder {
+    font-family: "Montserrat-Regular";
+    font-size: 17px;
 }
 
 .form-part .btn {
     background-color: #2f2e43 !important;
-    font-family: "Lato-Black";  
+    font-family: "Lato-Black";
     font-size: 26px;
 }
 
-
-.section1 .right h1{
+.section1 .right h1 {
     font-size: 90px;
     font-family: "Antonia H1 SemiBold";
-    color:#2f2e43;
+    color: #2f2e43;
 }
 
-.section2 .right h1{
+.section2 .right h1 {
     font-size: 70px;
     font-family: "Antonia H1 SemiBold";
-    color:#2f2e43;
+    color: #2f2e43;
 }
 
 .right p {
     font-family: "Lato-Regular";
-    font-size:30px;
-    color:#2f2e43;
+    font-size: 30px;
+    color: #2f2e43;
 }
 
 .big-picture {
-    margin-top:80px;
+    margin-top: 80px;
     position: absolute;
-   right: 200px;
-   width:600px;
-   z-index: 0;
+    right: 200px;
+    width: 600px;
+    z-index: 0;
 }
 
-@media only screen and  (max-width: 1200px) {
-   .right img{
-    display:none;
-   }
+@media only screen and (max-width: 1200px) {
+    .right img {
+        display: none;
+    }
 
-   .form-part .btn {
-       font-size:15px;
-   }
+    .form-part .btn {
+        font-size: 15px;
+    }
 
-   .section1 .right h1{
-    font-size:60px;
-    font-family: "Antonia H1 SemiBold";
-    color:#2f2e43;
+    .section1 .right h1 {
+        font-size: 60px;
+        font-family: "Antonia H1 SemiBold";
+        color: #2f2e43;
+    }
+
+    .section2 .right h1 {
+        font-size: 40px;
+        font-family: "Antonia H1 SemiBold";
+        color: #2f2e43;
+    }
 }
 
-.section2 .right h1{
-    font-size:40px;
-    font-family: "Antonia H1 SemiBold";
-    color:#2f2e43;
+@media  (min-width: 1200px) {
+   
+    .lastname {
+        margin-left:25px;
+    }
 }
-  }
 
+@media  (min-width: 1400px) {
+    .firstname input {
+        width:245px;
+    }
+    .lastname {
+        margin-left:45px;
+    }
+}
 
 
 /* Second part */
-@media only screen and  (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     .second p {
-        font-size:12px;
+        font-size: 12px;
     }
+}
 
-   }
-
-   @media only screen and  (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .second .btn {
-        font-size:13px !important;
+        font-size: 13px !important;
     }
+}
 
-   }
 .second h1 {
     font-family: "Antonia H1 SemiBold";
-    color:#2f2e43;
+    color: #2f2e43;
 }
 
 .second p {
     font-family: "Lato-Regular";
-    color:#2f2e43;
+    color: #2f2e43;
     font-size: 22px;
 }
 
 .second h6 {
     font-family: "Antonia H1 SemiBold";
-    color:#2f2e43;
-    font-size:40px;
+    color: #2f2e43;
+    font-size: 40px;
 }
 
 .second .btn {
     background-color: #2f2e43 !important;
-    font-family: "Lato-Black";  
+    font-family: "Lato-Black";
     font-size: 26px;
 }
 
@@ -161,24 +179,22 @@
 
 /* Testimonials  */
 
-@media only screen and  (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     .carousel h4 {
-        margin:0 70px;
-        font-size:15px;
+        margin: 0 70px;
+        font-size: 15px;
     }
-   }
+}
 
-   @media only screen and  (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     .carousel h4 {
         margin: 0 150px;
     }
-   }
-
-
+}
 
 .carousel {
     background-color: #2f2e43;
-    color:white;
+    color: white;
 }
 
 .carousel h1 {
@@ -187,35 +203,30 @@
 
 .carousel h4 {
     font-family: "Lato-MediumItalic";
-  
 }
 
 .carousel h5 {
     font-family: "Lato-Black";
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 .carousel i {
-    color:#f9a51b;
+    color: #f9a51b;
 }
 
-/* Picture part */ 
+/* Picture part */
 
-@media only screen and  (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     .picture-part img {
-        width:75%;
+        width: 75%;
     }
+}
 
-    
-   }
-
-   
-@media only screen and  (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     .picture-part img {
-        width:300px;
+        width: 300px;
     }
-   }
-
+}
 
 .picture-part {
     margin: 85px 0;
@@ -223,22 +234,21 @@
 
 .picture-part h3 {
     font-family: "Antonia H1 SemiBold";
-    color:#2f2e43;
-    font-size:44px;
+    color: #2f2e43;
+    font-size: 44px;
 }
 
 .picture-part p {
     font-family: "Lato-Regular";
-    color:#2f2e43;
-    font-size:20px
+    color: #2f2e43;
+    font-size: 20px
 }
 
-
-/* Footer */ 
+/* Footer */
 
 footer {
     background-color: #2f2e43;
-    color:white;
+    color: white;
 }
 
 footer p {
@@ -246,41 +256,41 @@ footer p {
 }
 
 footer h1 {
-    font-family: "Lato-Black"; 
+    font-family: "Lato-Black";
 }
 
 footer .btn {
     font-size: 36px;
-    color:#2f2e43;
-    font-family: "Lato-Black"; 
+    color: #2f2e43;
+    font-family: "Lato-Black";
 }
 
 footer a {
     text-decoration: none;
-    color:white;
-   font-family:"MinionPro-Regular";
-   font-size: 16px;
-    margin-left:5px
+    color: white;
+    font-family: "MinionPro-Regular";
+    font-size: 16px;
+    margin-left: 5px
 }
 
 footer .annex {
-    color:#8d8d98;
-    font-size:16px;
+    color: #8d8d98;
+    font-size: 16px;
     margin-left: 5px;
 }
 
 footer .vl {
-   margin-left: 80px;
+    margin-left: 80px;
     border-left: 1px solid white;
-  height: 150px;
+    height: 150px;
 }
 
-@media only screen and  (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     footer .vl {
-       display: none;
-     }
+        display: none;
+    }
 
-     footer .btn {
-         font-size: 22px;
-     }
-   }
+    footer .btn {
+        font-size: 22px;
+    }
+}
