@@ -25,13 +25,34 @@
     src: url("./Fonts/MinionPro-Regular.otf");
 }
 
+@font-face {
+    font-family:"Lato-MediumItalic";
+    src: url("./Fonts/Lato-MediumItalic.ttf");
+}
+
+.section1{
+    background-color: #d4e7ef;
+    padding-bottom: 80px;
+}
+   
+
+.section2{
+    background-color: #2f2e43;
+    padding-bottom: 80px;
+} 
+
+/* Form part */
+
 .form-part {
     border-radius: 2%;
+    position: relative;
+    z-index: 1;
+    
 }
 
 .form-part h1 {
     font-family: "Antonia H1 SemiBold";
-    color:#1D315A;
+    color:#2f2e43;
     font-size: 36px;
 }
 
@@ -41,66 +62,118 @@
 }
 
 .form-part .btn, .second .btn {
-    background-color: #1B1E45 !important;
+    background-color: #2f2e43 !important;
     font-family: "Lato-Black";
     font-size: 26px;
 }
 
-.right h1{
+.section1 .right h1{
     font-size: 90px;
     font-family: "Antonia H1 SemiBold";
-    color:#1D315A;
+    color:#2f2e43;
+}
+
+.section2 .right h1{
+    font-size: 70px;
+    font-family: "Antonia H1 SemiBold";
+    color:#2f2e43;
 }
 
 .right p {
     font-family: "Lato-Regular";
     font-size:30px;
-    color:#1D315A;
-
+    color:#2f2e43;
 }
 
-.right img {
-    border-radius: 70%;
-    
+.big-picture {
+    margin-top:80px;
+    position: absolute;
+   right: 200px;
+   width:600px;
+   z-index: 0;
 }
+
+
+/* Second part */
 
 .second h1 {
     font-family: "Antonia H1 SemiBold";
-    color:#1D315A;
+    color:#2f2e43;
 }
 
 .second p {
     font-family: "Lato-Regular";
-    color:#1D315A;
+    color:#2f2e43;
     font-size: 22px;
 }
 
 .second h6 {
     font-family: "Antonia H1 SemiBold";
-    color:#1D315A;
+    color:#2f2e43;
     font-size:40px;
 }
 
 .second .btn {
     font-size: 35px;
+}
 
+.second span {
+    font-weight: 700;
+}
+
+/* Carousel */
+
+.carousel {
+    background-color: #2f2e43;
+    color:white;
+}
+
+.carousel h1 {
+    font-family: "Antonia H1 SemiBold";
+}
+
+.carousel h4 {
+    font-family: "Lato-MediumItalic";
+    margin: 0 150px;
+}
+
+.carousel h5 {
+    font-family: "Lato-Black";
+    margin-top:10px;
+}
+
+.carousel i {
+    color:#f9a51b;
+}
+
+/* Picture part */ 
+
+.picture-part {
+    margin: 85px 0;
 }
 
 .picture-part h3 {
     font-family: "Antonia H1 SemiBold";
-    color:#1D315A;
+    color:#2f2e43;
     font-size:44px;
 }
 
 .picture-part p {
     font-family: "Lato-Regular";
-    color:#1D315A;
+    color:#2f2e43;
     font-size:20px
 }
 
+
+/* Footer */ 
+
 footer {
-    background-color: #1D315A;
+    background-color: #2f2e43;
     color:white;
+}
+
+footer p {
+    font-size: 18px;
 }
 
 footer h1 {
@@ -109,7 +182,7 @@ footer h1 {
 
 footer .btn {
     font-size: 36px;
-    color:#1D315A;
+    color:#2f2e43;
     font-family: "Lato-Black"; 
 }
 
@@ -117,10 +190,13 @@ footer a {
     text-decoration: none;
     color:white;
    font-family:"MinionPro-Regular";
-   font-size: 21px;
+   font-size: 16px;
+    margin-left:5px
 }
 
 footer .annex {
     color:#50577D;
+    font-size:16px;
+    margin-left: 5px;
 }
 

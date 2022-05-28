@@ -5,16 +5,24 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/84b6d49ee8.js" crossorigin="anonymous"></script>
   <!-- Main CSS -->
   <link rel="stylesheet" href="style.css">
+   
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+
 
   <title>Hello, world!</title>
 </head>
 
 <body>
+
+  <section class="section1">
+  <!-- Navbar -->
   <div class="container">
     <div class="row">
       <div class="col-md-4 offset-1">
@@ -27,11 +35,11 @@
     </div>
   </div>
 
-
+  <!-- Form part -->
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <div class="border form-part p-5">
+        <div class="border form-part p-5 bg-white">
           <h1>Request a Free Consult</h1>
           <div>
             <p class="mt-3">Preferred Contact Method</p>
@@ -129,18 +137,20 @@
       <div class="col-md-6 right">
         <h1>Cottage
           Insurance</h1>
-          <p>It’s time to get your vacation property insured.</p>
-          <img src="./Img/arrow.png">
-          <img src="./Img/AdobeStock_361763989.png" alt="">
+        <p>It’s time to get your vacation property insured.</p>
+        <img src="./Img/arrow.png">
+        <img class="big-picture" src="./Img/AdobeStock_361763989.png" alt="">
       </div>
-    </div> 
+    </div>
   </div>
 
+  </section>
 
+  <!-- Second part -->
   <div class="container second mt-5">
     <div class="row">
-      <div class="col-md-10 offset-1 text-center">
-        <h1 class="display-5">Peace of Mind Protection with Annex Insurance</h1>
+      <div class="col-md-12 text-center">
+        <h1 class="display-4">Peace of Mind Protection with Annex Insurance</h1>
         <p>This comprehensive protection plan equips you with financial cover to repair or replace damaged property,
           as well as recover from liability claims.</p>
       </div>
@@ -177,17 +187,65 @@
 
       </div>
 
-     
+
     </div>
 
   </div>
 
-  <div class="container my-5 picture-part">
+  <div class="container mt-5 text-center">
+    <div class="row">
+      <div class="col-md-10 offset-1">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner p-5">
+            <div>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+
+            </div>
+            
+            <h1 class="display-4">Testimonials</h1>
+            <div class="carousel-item active mt-3">
+              <h4>”Annex Insurance provided me the coverage and confidence
+                to keep my cottage investment safe and secure."</h4>
+              <h5>-George Saturnino</h5>
+            </div>
+            <div class="carousel-item mt-3">
+
+              <h4>”Annex Insurance provided me the coverage and confidence
+                to keep my cottage investment safe and secure."</h3>
+              <h5>-George Saturnino</h5>
+            </div>
+            <div class="carousel-item mt-3">
+              <h4>”Annex Insurance provided me the coverage and confidence
+                to keep my cottage investment safe and secure."</h3>
+              <h5>-George Saturnino</h4>
+            </div>
+          </div>
+          <button class="carousel-control-prev mt-3" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next mt-3" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Picture part -->
+  <div class="container picture-part">
     <div class="row">
       <div class="col-md-10 offset-1">
         <div class="row">
           <div class="col-md-4">
-              <img class="w-100" src="./Img/6665-modified-1.png"/>
+            <img class="w-100" src="./Img/6665-modified-1.png" />
           </div>
           <div class="col-md-8 d-flex flex-column justify-content-center">
             <h3>Is your cottage an Airbnb Rental?
@@ -201,6 +259,7 @@
     </div>
   </div>
 
+  <!-- Footer -->
   <footer class="container-fluid py-5">
     <div class="row">
       <div class="col-md-3 text-center ">
@@ -210,14 +269,14 @@
         <h1>REQUEST A FREE CONSULTATION
         </h1>
         <p>It’s time to get your vacation property insured</p>
-        <div class="d-flex justify-content-between">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Use</a>
-          <a href="#">Broker Compensation</a>
+        <div class="d-flex">
+          <a href="#">Privacy Policy |</a>
+          <a href="#">Terms of Use |</a>
+          <a href="#">Broker Compensation |</a>
           <p class="annex">Annex Insurance Group Inc. © 2022</p>
-  
+
         </div>
-     
+
       </div>
       <div class="col-md-3">
         <button class="btn btn-light p-4">RESERVE A SLOT</button>
