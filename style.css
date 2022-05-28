@@ -32,13 +32,13 @@
 
 .section1{
     background-color: #d4e7ef;
-    padding-bottom: 80px;
+    padding-bottom: 110px;
 }
    
 
 .section2{
     background-color: #2f2e43;
-    padding-bottom: 80px;
+    padding-bottom: 110px;
 } 
 
 /* Form part */
@@ -61,11 +61,12 @@
    font-size: 17px;
 }
 
-.form-part .btn, .second .btn {
+.form-part .btn {
     background-color: #2f2e43 !important;
-    font-family: "Lato-Black";
+    font-family: "Lato-Black";  
     font-size: 26px;
 }
+
 
 .section1 .right h1{
     font-size: 90px;
@@ -93,9 +94,44 @@
    z-index: 0;
 }
 
+@media only screen and  (max-width: 1200px) {
+   .right img{
+    display:none;
+   }
+
+   .form-part .btn {
+       font-size:15px;
+   }
+
+   .section1 .right h1{
+    font-size:60px;
+    font-family: "Antonia H1 SemiBold";
+    color:#2f2e43;
+}
+
+.section2 .right h1{
+    font-size:40px;
+    font-family: "Antonia H1 SemiBold";
+    color:#2f2e43;
+}
+  }
+
+
 
 /* Second part */
+@media only screen and  (min-width: 1200px) {
+    .second p {
+        font-size:12px;
+    }
 
+   }
+
+   @media only screen and  (max-width: 800px) {
+    .second .btn {
+        font-size:13px !important;
+    }
+
+   }
 .second h1 {
     font-family: "Antonia H1 SemiBold";
     color:#2f2e43;
@@ -114,14 +150,31 @@
 }
 
 .second .btn {
-    font-size: 35px;
+    background-color: #2f2e43 !important;
+    font-family: "Lato-Black";  
+    font-size: 26px;
 }
 
 .second span {
     font-weight: 700;
 }
 
-/* Carousel */
+/* Testimonials  */
+
+@media only screen and  (max-width: 1200px) {
+    .carousel h4 {
+        margin:0 70px;
+        font-size:15px;
+    }
+   }
+
+   @media only screen and  (min-width: 1200px) {
+    .carousel h4 {
+        margin: 0 150px;
+    }
+   }
+
+
 
 .carousel {
     background-color: #2f2e43;
@@ -134,7 +187,7 @@
 
 .carousel h4 {
     font-family: "Lato-MediumItalic";
-    margin: 0 150px;
+  
 }
 
 .carousel h5 {
@@ -147,6 +200,22 @@
 }
 
 /* Picture part */ 
+
+@media only screen and  (max-width: 1200px) {
+    .picture-part img {
+        width:75%;
+    }
+
+    
+   }
+
+   
+@media only screen and  (min-width: 1200px) {
+    .picture-part img {
+        width:300px;
+    }
+   }
+
 
 .picture-part {
     margin: 85px 0;
@@ -195,8 +264,23 @@ footer a {
 }
 
 footer .annex {
-    color:#50577D;
+    color:#8d8d98;
     font-size:16px;
     margin-left: 5px;
 }
 
+footer .vl {
+   margin-left: 80px;
+    border-left: 1px solid white;
+  height: 150px;
+}
+
+@media only screen and  (max-width: 1200px) {
+    footer .vl {
+       display: none;
+     }
+
+     footer .btn {
+         font-size: 22px;
+     }
+   }
